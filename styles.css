@@ -1,74 +1,105 @@
 p {
-    background           : rgb(248, 245, 207);
-    border-radius        : 10px;
-    border-style         : ridge;
-    width                : 209px;
-    height               : 50px;
-    margin-bottom        : 0px;
-    text-align           : right;
-    
-    }
+    background: rgb(248, 245, 207);
+    border-radius: 10px;
+    border-style: ridge;
+    width: 209px;
+    height: 50px;
+    margin-bottom: 0px;
+    text-align: right;
+
+}
 
 
 
-    body {
-    display                    : flex;               
-    justify-content        : center;     
-    align-items            : center;         
-    height                 : 100vh;               
-    margin                 : 0;                  
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
-        text-align          : center;
-        font-size           : 28px;
-    }
+    text-align: center;
+    font-size: 28px;
+}
 
 #operator {
-        white-space: pre;
-    }
+    white-space: pre;
+}
 
 
-#equalto{
-        border-radius       : 10px;
-        border-style        : groove;
-        width               : 50px;
-        height              : 50px;
-        background          : blue;
+#equalto {
+    border-radius: 10px;
+    border-style: groove;
+    width: 50px;
+    height: 50px;
+    background: blue;
+    font-weight: bold;
 
 }
 
-#clear{
-        background   : rgb(255, 0, 0);
-        border-radius       : 10px;
-        border-style        : groove;
-        width               : 50px;
-        height              : 50px;
-        font-weight         : bold;
-        color               : white; 
-        
-        
-    }
+#clear {
+    background: rgb(255, 0, 0);
+    border-radius: 10px;
+    border-style: groove;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
 
-.operator{
-        background          : black;
-        border-radius       : 10px;
-        border-style        : groove;
-        width               : 50px;
-        height              : 50px;
-        font-weight         : bold;
-        color               : white;    
-        
+
+}
+
+#backspace {
+    background: red;
+    border-radius: 10px;
+    border-style: groove;
+    width: 50px;
+    height  : 50px;
+   
+   
+}
+
+#memory {
+    background: grey;
+    border-radius: 10px;
+    border-style: groove;
+    width: 50px;
+    height: 50px;
+    color: white;
+
+}
+#negativePositive {
+    border-radius: 10px;
+    border-style: groove;
+    width: 50px;
+    height: 50px;
+
+
+
+}
+
+
+.operator {
+    background: black;
+    border-radius: 10px;
+    border-style: groove;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+
 
 
 }
 
 .button {
-        border-radius       : 10px;
-        border-style        : groove;
-        width               : 50px;
-        height              : 50px;
+    border-radius: 10px;
+    border-style: groove;
+    width: 50px;
+    height: 50px;
 
 
-        
-    }
+
+}
